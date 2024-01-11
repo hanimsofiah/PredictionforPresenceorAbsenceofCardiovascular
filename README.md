@@ -34,8 +34,10 @@ Raw Dataset can be accessed from cardio_data_processed.csv (retrieved from [Card
 
 ## Interpret
 * Start with the **apps.py** as the entry point for a Streamlit application
-  * Use the serialized model (**cardio_model.keras**)
   * Preprocessing tool (**min_max_scaler.pkl**)
+    https://github.com/hanimsofia/Prediction-for-Presence-or-Absence-of-Cardiovascular/blob/85fffa0e5af9caaafd7f5bad90852e9af7a873e1/apps.py#L9-L22
+  * Use the serialized model (**cardio_model.keras**) 
+    https://github.com/hanimsofia/Prediction-for-Presence-or-Absence-of-Cardiovascular/blob/85fffa0e5af9caaafd7f5bad90852e9af7a873e1/apps.py#L24-L27
  
 # Set Up Environment
 Install Python 3.11, Streamlit, and TensorFlow and run the application to serve the model.
