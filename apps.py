@@ -21,7 +21,7 @@ def prediction(data):
     else:
         return "Normal"    
 
-st.title("Cardio Diease Prediction")
+st.title("Cardiovascular Disease Prediction")
 st.markdown("Model to predict patient do have cardio disease based on their input")
 new_model = tf.keras.models.load_model('cardio_model')
 new_model.summary()
